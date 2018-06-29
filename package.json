@@ -1,0 +1,29 @@
+{
+  "name": "mongonews",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/pachosalazar/mongonews/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pachosalazar/mongonews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pachosalazar/mongonews/issues"
+  },
+  "homepage": "https://github.com/pachosalazar/mongonews#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0",
+    "mongoose": "^5.1.7",
+    "path": "^0.12.7",
+    "request": "^2.87.0"
+  }
+}
